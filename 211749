@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abba lawan graphics- Portfolio</title>
+</head>
+<style>
+    Body{
+        font-family:  Arial Sans-Serif;
+        background-color: #f5f6fa;
+        Color:#333;
+        line height: 1.6;
+    }
+Header{    background:#000080;
+   
+    color:white ;
+    text-align: center;
+    padding: 1rem0;
+    Border-radius:10px;
+}
+
+ .section{
+      background:white;
+      color: black;
+      padding: 30px 50px;
+      text-align: center;
+      Margin-bottom:30px;
+      Margin-top:30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      Margin:1rem0;
+    }
+    .projects{
+      background:white;
+      color: black;
+      padding: 30px 50px;
+      text-align: center;
+      Margin-bottom:30px;
+      Margin-top:30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      Margin:1rem0;
+    }
+    .box {
+        Background:white;
+        Color:black;
+  width: 50px%;
+  max-width: 350px;
+  margin-top:30px;
+  Margin-bottom:30px;
+  text-align:center ;
+       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  Margin:1rem0;
+  border-radius: 15px;
+}
+
+.box img {
+  width: 400px;
+  Height:200px;
+  border-radius: 5px;
+  text-align: center;
+}
+Img{
+    width:150px;
+    Height:150px;
+    border-radius:10px;
+    border:solid #000080;
+}
+.contact-btn {
+      display: block;
+      margin: 20px auto;
+      background: #000080;
+      border: none;
+      padding: 14px 30px;
+      border-radius: 10px;
+      font-size: 16px;
+      Color:black;
+    }
+        /* Popup container */
+    .welcome-popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.8);
+      background: white;
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 5px 20px rgba(0,0,0,0.3);
+      text-align: center;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      z-index: 1000;
+    }
+
+    .welcome-popup.show {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    .welcome-popup h2 {
+      color: #1e3a8a;
+      margin-bottom: 10px;
+    }
+
+    .welcome-popup p {
+      color: #374151;
+     Width:300px;
+      font-size: 14px;
+    }
+
+.footer {
+      background: #000080;
+      text-align: center;
+      padding: 20px;
+      Color:white;
+      font-size: 14px;
+    }
+</style>
+<body>
+    <header>
+        
+       <br> <h3> Abba lawan graphics</h3>
+        <br>
+        <p>graphic designer / web developer / microsoft office </p><br>
+    </header>
+    <div class="section">
+        <h2>About Me</h2>
+       
+        <img src="me.png" alt="photo" class="photo">
+        <p><b>Abubakar lawan musa</b></p>
+        <p>I am a creative graphic designer with a strong eye for visual design and branding. I create clean, attractive designs that communicate ideas clearly and professionally.</p>
+        <P>I am highly skilled in Microsoft Office, including Word, Excel, and PowerPoint, for document design, data organization, and professional presentations</P>
+        <p>I also have web development skills, building responsive and user-friendly websites using modern tools and technologies. I focus on clean layouts, good user experience, and functional design that meets client needs.</p>
+    </div>
+    <center>
+    <div class="projects">
+        <h2><u>our service</u></h2>
+        <p><h4>graphic design</h4></p>
+        <ul>
+        <li>poster</li>
+         <li>logo</li>
+          <li>flyer</li>
+           <li>banner</li>
+            <p><h4>microsoft office</h4></p>
+        <li>creating document</li>
+         <li>letter headed</li>
+          <li>presentation</li>
+           <li>data analysis</li>
+           
+            <p><h4>microsoft office</h4></p>
+        <li>build website</li>
+         <li>developping game</li>
+
+            
+    </div>
+        
+   <div class="box">
+       <h2>projects</h2>
+  <img src="tailor.jpeg" alt="Abba lawan">
+  
+  <img src="food.jpeg" alt="Abba lawan">
+
+</div>
+   <div class="box">
+       <h2>projects</h2>
+  <img src="me.jpeg" alt="Abba lawan">
+  <img src="logo.jpg" alt="Abba lawan">
+</div>
+   <div class="box">
+       <h2></h2>
+       <img src="birthday .jpeg" alt="Abba lawan">
+       <img src="com.jpeg" alt="Abba lawan">
+  
+</div>
+   <div class="box">
+       <br>
+ 
+       <h4>why choose us</h4>
+  <p>
+We care about your project.
+We give clear communication, good design, and reliable service to help your business grow.</p><br><br>
+</div>
+</div>
+
+    <button class="contact-btn"><a href="https://wa.link/u19k1i">contact us</a></button>
+  </div>
+
+
+     <!-- FOOTER -->
+  <div class="footer">
+        Via email:abbalawangraphics@gmail.com<br><br>
+        Via facebook : Abba lawan graphics<br><br>
+        Via call: 09162850606<br><br>
+
+    2026© All rights reserved by Abba lawan graphics
+  </div>
+  <script>
+        // Popup auto show
+  window.onload = function() {
+    const popup = document.getElementById("welcomePopup");
+    popup.classList.add("show");
+  </script>
+</center>
+</body>
+</html>
